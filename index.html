@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vuesax Dashboard</title>
+    <link rel="stylesheet" href="css\styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="vertical-nav">
+
+        <div class=" vertical-nav__title">
+            <div class="vertical-nav__title-head">
+                <img src="images\logo.png" alt="logo" class="vuesax__logo">
+                <h1 class="vuesax">Vuesax</h1>            
+                <img src="icons/icon-vertical-purple-ring.svg" alt="" class="vertical-nav__title__left">                       
+            </div>
+            <div>
+                <select name="page" id="" class="side-nav__drop">
+                    <option value="dashboard">
+                        <img src="icons/icon-vertival-home.svg" alt="">                       
+                        Dashboard
+                    </option>
+                </select>            
+            </div>
+            <div>
+                <button class="btn btn-purple">
+                    <img src="icons/icon-dashboard-ring-white.svg" alt="">                    
+                    Analytics
+                </button>
+            </div>
+            <div>
+                <button class="btn">
+                    <img src="icons/icon-vertical-ring.svg" alt="">                    
+                    eCommerce
+                </button>            
+            </div>
+            
+        </div>
+        <!-- End of the title part, next is the APPS bar -->
+        <div class="vertical-nav__item">
+            <h5 class="vertical-nav__header">APPS</h5>
+            <ul class="vertical-nav__list">
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-vertical-mail.svg" alt="">                    
+                    <span>Email</span>
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icons-vertical-chat.svg" alt="">                    
+                    <span>Chat</span> 
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-check-todo.svg" alt="">                    
+                    <span>To-Do</span>
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-calendar.svg" alt="">                    
+                    <span>Calendar</span>
+                </li>
+            </ul>
+        </div>
+        <div class="vertical-nav__item">
+            <h5 class="vertical-nav__header">UI ELEMENTS</h5>
+            <ul class="vertical-nav__list">
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-grid-normal.svg" alt="">                    
+                    <span>Grid</span>      
+                    <img src="icons/icon-chevron-right.svg" alt="" class="vertical-nav__list__item__arrow">       
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icons-colors-drop.svg" alt="">
+                    <span>Colors</span>      
+                </li>
+                <li class="vertical-nav__list__item">
+                    <div class="">
+                        <img src="icons/icons-vertical-creditcard.svg" alt="">
+                        <span>Card</span>       
+                    </div>
+                    <img src="icons/icon-chevron-right.svg" alt="" class="vertical-nav__list__item__arrow">       
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icons-grid-layout.svg" alt="">       
+                    <span>Table</span>
+                </li>
+                <li class="vertical-nav__list__item">
+                    <div class="">
+                        <img src="icons/icons-components-archive.svg" alt="">                   
+                        <span>Components</span>       
+                    </div>
+                    <img src="icons/icon-chevron-right.svg" alt="" class="vertical-nav__list__item__arrow">       
+                </li>
+            </ul>
+        </div>
+        <div class="vertical-nav__item">
+            <h5 class="vertical-nav__header">FORMS</h5>
+            <ul class="vertical-nav__list">
+                <li class="vertical-nav__list__item">
+                    <div class="">
+                        <img src="icons/icon-form-copy.svg" alt="">       
+                        <span>Form Elements</span>
+                    </div>
+                    <img src="icons/icon-chevron-right.svg" alt="" class="vertical-nav__list__item__arrow">        
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-grid-sidebar.svg" alt="">       
+                    <span>Form Layouts</span>    
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-file-document.svg" alt="">       
+                    <span>Form Wizard</span>
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-tick-circle.svg" alt="">       
+                    <span>Form Validation</span>     
+                </li>
+            </ul>
+        </div>
+        <div class="vertical-nav__item">
+            <h5 class="vertical-nav__header">PAGES</h5>
+            <ul class="vertical-nav__list">
+                <li class="vertical-nav__list__item">
+                    <div class="">
+                        <img src="icons/in-icon-lock-black.svg" alt=""/>
+                        <span>Authentication</span>
+                    </div>
+                    <img src="icons/icon-chevron-right.svg" alt="" class="vertical-nav__list__item__arrow">        
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-clock.svg" alt="">       
+                    <span>Coming Soon</span>    
+                </li>
+                <li class="vertical-nav__list__item">
+                    <div class="">
+                        <img src="icons/icon.warning-alert.svg" alt=""/>
+                        <span>Error</span>
+                    </div>
+                    <img src="icons/icon-chevron-right.svg" alt="" class="vertical-nav__list__item__arrow">                    
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-anchor.svg" alt="">       
+                    <span>Maintenance</span> 
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-user-profile.svg" alt="">       
+                    <span>Profile</span> 
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-help-and-support.svg" alt="">       
+                    <span>FAQ</span> 
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-knowledge-info.svg" alt="">       
+                    <span>Knowledge Base</span> 
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-search.svg" alt="">       
+                    <span>Search</span> 
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-file-blank.svg" alt="">       
+                    <span>Invoice</span> 
+                </li>
+            </ul>
+        </div>
+        <div class="vertical-nav__item">
+            <h5 class="vertical-nav__header">CHARTS & MAPS</h5>
+            <ul class="vertical-nav__list">
+                <li class="vertical-nav__list__item">
+                    <div class="">
+                        <img src="icons/icon-pie-chart.svg" alt=""/>
+                        <span>Charts</span>
+                    </div>
+                    <img src="icons/icon-chevron-right.svg" alt="" class="vertical-nav__list__item__arrow"> 
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-google-map.svg" alt="">       
+                    <span>Google Maps</span>
+                </li>
+            </ul>
+        </div>
+        <div class="vertical-nav__item">
+            <h5 class="vertical-nav__header">EXTENSIONS</h5>
+            <ul class="vertical-nav__list">
+                <li class="vertical-nav__list__item">
+                    <div class="">
+                        <img src="icons/icon-select-pocket.svg" alt=""/>
+                        <span>Select</span>
+                    </div>
+                    <img src="icons/icon-chevron-right.svg" alt="" class="vertical-nav__list__item__arrow">    
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-quill-editor.svg" alt="">       
+                    <span>Quill Editor</span>
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icons-colors-drop.svg" alt="">       
+                    <span>Drag & Drop</span>
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-calendar.svg" alt="">       
+                    <span>Date Picker</span>
+                </li>
+            </ul>
+        </div>
+        <div class="vertical-nav__item">
+            <h5 class="vertical-nav__header">OTHERS</h5>
+            <ul class="vertical-nav__list">
+                <li class="vertical-nav__list__item">
+                        <img src="icons/icon-menu-hamburger.svg" alt=""/>
+                        <span>Menu Levels</span>
+                        <img src="icons/icon-chevron-right.svg" alt="" class="vertical-nav__list__item__arrow"> 
+                </li>
+                <li class="vertical-nav__list__item">
+                    <img src="icons/icon-eye-hidden.svg" alt="">       
+                    <span>Disabled Menu</span>
+                </li>
+            </ul> 
+        </div>
+
+    </div>
+    <!-- End of the vertical nav div -->
+
+    <div class="dashBoard">
+
+        <div class="navBar">
+            <div class="navBar__item--left">
+                <img src="icons/icon-check-todo.svg" alt="" class="navBar__item__menu">
+                <img src="icons/icons-vertical-chat.svg" alt="" class="navBar__item__menu">
+                <img src="icons/icon-vertical-mail.svg" alt="" class="navBar__item__menu">
+                <img src="icons/icon-calendar.svg" alt="" class="navBar__item__menu">
+                <img src="icons/icon-yellow-star.svg" alt="" class="navBar__item__menu">
+            </div>
+            <div class="navBar__item--right">
+                <div class="navBar__item__menuGroup">
+                    <p class="navBar__item__menuItem navBar__title__font-size">English</p>
+                    <img src="icons/icon-bell.svg" alt="" class="navBar__item__menuItem">
+                    <img src="icons/icon-search.svg" alt="" class="navBar__item__menuItem">
+                </div>
+                <div class="navBar__item__avatar">
+                    <div class="navBar__item__avatarId">
+                        <p class="navBar__item__avatar__title navBar__title__font-size">John Doe</p>
+                        <p class="navBar__item__avatar__subtitle"><small>Available</small></p>
+                    </div>
+                    <div class="navBar__item__avatar__logo">
+                        <img src="images\Oval.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pageNav">
+            <div class="pageNav__left">
+                <h2 class="pageNav__left__item pageNav__left__title">Card Actions</h2>
+                &#124; &#127968; &#x2A20;
+                <h5 class="pageNav__left__item pageNav__left__subtitle--blue">eCommerce</h5>
+                &#x2A20;
+                <h5 class="pageNav__left__item pageNav__left__subtitle">Electronics</h5>
+            </div>
+            <div class="pageNav__right">
+                <img src="icons/icon-dashboard-setting.svg" alt="" class="pageNav__right__settings">
+            </div>
+        </div>
+
+        <div class="contentBar">
+
+            <div class="filterNav">
+                <h4 class="filterBar__nav">Filters</h4>
+                <form action="" class="filterBar">
+                    <div class="filterBar__body">
+                        
+                        <h5 class="filterBar__title">Multi Range</h5>
+                        <div class="filterBar__title__item">
+                            <input type="radio" name="price" value="10">
+                            <span>$10</span> 
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="radio" name="price" value="10">
+                            <span>$10-$100</span> 
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="radio" name="price" value="10">
+                            <span>$100-$500</span> 
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="radio" name="price" value="10">
+                            <span>$500</span> 
+                        </div>  
+                        <div class="filterBar__title__item">
+                            <input type="radio" name="price" value="10">
+                            <span>All</span> 
+                        </div> 
+                        <!-- End of the Multi Range area -->
+                        <hr>
+                        <div class="filterBar__title__item filterBar__title__item--block">
+                            <div class="slider-name">
+                                <h5 class="filterBar__title slider-bar">Slider</h5><span>1.99 - 4098</span> 
+                            </div>
+                            <input type="range" min="0" max="5500" value="100" class="slider">        
+                        </div>
+                        <hr>
+                        <!-- End of the slider section -->
+                        <h5 class="filterBar__title">Categories</h5>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="product" value="cellphone">
+                            <span>Cellphone</span> 
+                            <p class="comment">1920</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="product" value="computer">
+                            <span>Computers & Tablets</span> 
+                            <p class="comment">1820</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="product" value="accessories">
+                            <span>Cell Phone Accessories</span> 
+                            <p class="comment">462</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="product" value="appliances">
+                            <span>Appliances</span> 
+                            <p class="comment">6556</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="product" value="audio">
+                            <span>Audio</span> 
+                            <p class="comment">120</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="product" value="iphone">
+                            <span>iPhone Accessories</span> 
+                            <p class="comment">353</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="product" value="camera">
+                            <span>Cameras & Camcorders</span> 
+                            <p class="comment">45</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="product" value="cases">
+                            <span>iPhone Cases & Clips</span> 
+                            <p class="comment">456</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="product" value="tv">
+                            <span>TV & Home Theater</span> 
+                            <p class="comment">55</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="product" value="kitchen">
+                            <span>Small Kitchen Appliances</span> 
+                            <p class="comment">10</p>
+                        </div>
+                        <hr>
+                        <!-- End of Categories section -->
+                        <h5 class="filterBar__title">Brands</h5>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="brand" value="Insigni">
+                            <span>Insigni</span> 
+                            <p class="comment">220</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="brand" value="samsung">
+                            <span>Samsung</span> 
+                            <p class="comment">120</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="brand" value="apple">
+                            <span>Apple</span> 
+                            <p class="comment">320</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="brand" value="hp">
+                            <span>HP</span> 
+                            <p class="comment">32</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="brand" value="sony">
+                            <span>Sony</span> 
+                            <p class="comment">520</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="brand" value="metra">
+                            <span>Metra</span> 
+                            <p class="comment">55</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="brand" value="dyne">
+                            <span>Dyne</span> 
+                            <p class="comment">120</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="brand" value="lg">
+                            <span>LG</span> 
+                            <p class="comment">98</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="brand" value="canon">
+                            <span>Canon</span> 
+                            <p class="comment">99</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <input type="checkbox" name="brand" value="spec">
+                            <span>Spec</span> 
+                            <p class="comment">575</p>
+                        </div>
+                        <hr>
+                        <!-- End of Brands section -->
+                        <h5 class="filterBar__title">Ratings</h5>
+                        <div class="filterBar__title__item">
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span>& Up</span>
+                            <p class="comment">8500</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-black-star.svg" alt=""></span>
+                            <span>& Up</span>
+                            <p class="comment">3250</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-black-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-black-star.svg" alt=""></span>
+                            <span>& Up</span>
+                            <p class="comment">1120</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-black-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-black-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-black-star.svg" alt=""></span>
+                            <span>& Up</span>
+                            <p class="comment">3320</p>
+                        </div>
+                        <div class="filterBar__title__item">
+                            <span class=""><img src="icons\icon-yellow-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-black-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-black-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-black-star.svg" alt=""></span>
+                            <span class=""><img src="icons\icon-black-star.svg" alt=""></span>
+                            <span>& Up</span>
+                            <p class="comment">5452</p>
+                            <!-- End of Rating section -->
+                        </div>
+                    </div>
+                    <button class="btn btn-purple btn-filter">CLEAR ALL FILTERS</button>
+
+                </form>
+            </div>
+                
+
+            <div class="itemNav">
+
+                <div class="itemNav__title">
+                    <div class="itemNav__title__left">
+                        <h4 class="itemNav__title__left-n">7,618 results found in 5ms</h4>
+                    </div>
+                    <div class="itemNav__title__right">
+                        <div class="itemNav__title__right__icons">
+                            <h5>Default</h5>
+                            <img src="icons/icon-chevron-down.svg" alt="" class="chev-down">
+                        </div>
+                        <div class="itemNav__title__right__icons">
+                            <img src="icons/icons-grid-layout.svg" alt="">
+                        </div>
+                        <div class="itemNav__title__right__icons">
+                            <img src="icons/icon-menu-hamburger.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="itemSearch">
+                    <input type="text" class="itemSearch__bar" placeholder="Search here">
+                </div>
+
+                <div class="itemList">
+                    <div class="itemList__sample sample">
+                        <div class="itemList__sample__image">
+                            <div class="image-house">
+                                <img src="images\apple-watch.png" alt="" class="sample__image">
+                            </div>
+                        </div>
+                        <div class="itemList__sample__price">
+                            <div class="sample__price__left">
+                                <span>3.4</span>&nbsp;<span><img src="icons/icon-rating-item-star.svg" alt=""></span>
+                            </div>
+                            <div class="sample__price__right">
+                                <span>$399</span>
+                            </div>
+                        </div>
+                        <div class="itemList__sample__details">
+                            <h5>Apple Watch Series 4 GPS</h5>
+                            <p>Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="itemList__sample__buy">
+                            <div class="sample__buy__left">
+                                <span><img src="icons\icon-heart-black.svg" alt=""></span>&nbsp;<span>WISHLIST</span>
+                            </div>
+                            <div class="sample__buy__right">
+                                <span><img src="icons/icon-shopping-bag.svg" alt=""></span>&nbsp;<span>ADD TO CART</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itemList__sample sample">
+                        <div class="itemList__sample__image">
+                            <div class="image-house">
+                                <img src="images\jbl-speaker.png" alt="" class="sample__image">
+                            </div>
+                        </div>
+                        <div class="itemList__sample__price">
+                            <div class="sample__price__left">
+                                <span>5.0</span>&nbsp;<span><img src="icons/icon-rating-item-star.svg" alt=""></span>
+                            </div>
+                            <div class="sample__price__right">
+                                <span>$199</span>
+                            </div>
+                        </div>
+                        <div class="itemList__sample__details">
+                            <h5>JBL Speaker</h5>
+                            <p>Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="itemList__sample__buy">
+                            <div class="sample__buy__left">
+                                <span><img src="icons\icon-heart-black.svg" alt=""></span>&nbsp;<span>WISHLIST</span>
+                            </div>
+                            <div class="sample__buy__right">
+                                <span><img src="icons/icon-shopping-bag.svg" alt=""></span>&nbsp;<span>ADD TO CART</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itemList__sample sample">
+                        <div class="itemList__sample__image">
+                            <div class="image-house">
+                                <img src="images\iphone-x.png" alt="" class="sample__image">
+                            </div>
+                        </div>
+                        <div class="itemList__sample__price">
+                            <div class="sample__price__left">
+                                <span>4.4</span>&nbsp;<span><img src="icons/icon-rating-item-star.svg" alt=""></span>
+                            </div>
+                            <div class="sample__price__right">
+                                <span>$899</span>
+                            </div>
+                        </div>
+                        <div class="itemList__sample__details">
+                            <h5>Apple iPhone X 128GB</h5>
+                            <p>Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="itemList__sample__buy">
+                            <div class="sample__buy__left">
+                                <span><img src="icons\icon-heart-black.svg" alt=""></span>&nbsp;<span>WISHLIST</span>
+                            </div>
+                            <div class="sample__buy__right">
+                                <span><img src="icons/icon-shopping-bag.svg" alt=""></span>&nbsp;<span>ADD TO CART</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itemList__sample sample">
+                        <div class="itemList__sample__image">
+                            <div class="image-house">
+                                <img src="images\beats-headphones.png" alt="" class="sample__image">
+                            </div>
+                        </div>
+                        <div class="itemList__sample__price">
+                            <div class="sample__price__left">
+                                <span>3.4</span>&nbsp;<span><img src="icons/icon-rating-item-star.svg" alt=""></span>
+                            </div>
+                            <div class="sample__price__right">
+                                <span>$459</span>
+                            </div>
+                        </div>
+                        <div class="itemList__sample__details">
+                            <h5>Beats Headphones</h5>
+                            <p>Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="itemList__sample__buy">
+                            <div class="sample__buy__left">
+                                <span><img src="icons\icon-heart-black.svg" alt=""></span>&nbsp;<span>WISHLIST</span>
+                            </div>
+                            <div class="sample__buy__right">
+                                <span><img src="icons/icon-shopping-bag.svg" alt=""></span>&nbsp;<span>ADD TO CART</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itemList__sample sample">
+                        <div class="itemList__sample__image">
+                            <div class="image-house">                            
+                                <img src="images\macbook-pro.png" alt="" class="sample__image">                            
+                            </div>
+                        </div>
+                        <div class="itemList__sample__price">
+                            <div class="sample__price__left">
+                                <span>4.5</span>&nbsp;<span><img src="icons/icon-rating-item-star.svg" alt=""></span>
+                            </div>
+                            <div class="sample__price__right">
+                                <span>$2499</span>
+                            </div>
+                        </div>
+                        <div class="itemList__sample__details">
+                            <h5>Apple Macbook Pro 512GB SSD</h5>
+                            <p>Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="itemList__sample__buy">
+                            <div class="sample__buy__left">
+                                <span><img src="icons\icon-heart-black.svg" alt=""></span>&nbsp;<span>WISHLIST</span>
+                            </div>
+                            <div class="sample__buy__right">
+                                <span><img src="icons/icon-shopping-bag.svg" alt=""></span>&nbsp;<span>ADD TO CART</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itemList__sample sample">
+                        <div class="itemList__sample__image">
+                            <div class="image-house">                            
+                                <img src="images\ipad-pro.png" alt="" class="sample__image">
+                            </div>
+                        </div>
+                        <div class="itemList__sample__price">
+                            <div class="sample__price__left">
+                                <span>5.0</span>&nbsp;<span><img src="icons/icon-rating-item-star.svg" alt=""></span>
+                            </div>
+                            <div class="sample__price__right">
+                                <span>$899</span>
+                            </div>
+                        </div>
+                        <div class="itemList__sample__details">
+                            <h5>Apple iPad Pro 64GB</h5>
+                            <p>Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="itemList__sample__buy">
+                            <div class="sample__buy__left">
+                                <span><img src="icons\icon-heart-black.svg" alt=""></span>&nbsp;<span>WISHLIST</span>
+                            </div>
+                            <div class="sample__buy__right">
+                                <span><img src="icons/icon-shopping-bag.svg" alt=""></span>&nbsp;<span>ADD TO CART</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itemList__sample sample">
+                        <div class="itemList__sample__image">
+                            <div class="image-house">
+                                <img src="images\homepod.png" alt="" class="sample__image">
+                            </div>
+                        </div>
+                        <div class="itemList__sample__price">
+                            <div class="sample__price__left">
+                                <span>3.3</span>&nbsp;<span><img src="icons/icon-rating-item-star.svg" alt=""></span>
+                            </div>
+                            <div class="sample__price__right">
+                                <span>$399</span>
+                            </div>
+                        </div>
+                        <div class="itemList__sample__details">
+                            <h5>Apple Homepod</h5>
+                            <p>Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="itemList__sample__buy">
+                            <div class="sample__buy__left">
+                                <span><img src="icons\icon-heart-black.svg" alt=""></span>&nbsp;<span>WISHLIST</span>
+                            </div>
+                            <div class="sample__buy__right">
+                                <span><img src="icons/icon-shopping-bag.svg" alt=""></span>&nbsp;<span>ADD TO CART</span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="itemList__sample sample">
+                        <div class="itemList__sample__image">
+                            <div class="image-house">
+                                <img src="images\jlab-audio-wireless.png" alt="" class="sample__image">
+                            </div>
+                        </div>
+                        <div class="itemList__sample__price">
+                            <div class="sample__price__left">
+                                <span>5.0</span>&nbsp;<span><img src="icons/icon-rating-item-star.svg" alt=""></span>
+                            </div>
+                            <div class="sample__price__right">
+                                <span>$2499</span>
+                            </div>
+                        </div>
+                        <div class="itemList__sample__details">
+                            <h5>JBuds Air Wireless Bluetooth…</h5>
+                            <p>Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="itemList__sample__buy">
+                            <div class="sample__buy__left">
+                                <span><img src="icons\icon-heart-black.svg" alt=""></span>&nbsp;<span>WISHLIST</span>
+                            </div>
+                            <div class="sample__buy__right">
+                                <span><img src="icons/icon-shopping-bag.svg" alt=""></span>&nbsp;<span>ADD TO CART</span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="itemList__sample sample">
+                        <div class="itemList__sample__image">
+                            <div class="image-house">
+                                <img src="images\magic-mouse.png" alt="" class="sample__image">
+                            </div>
+                        </div>
+                        <div class="itemList__sample__price">
+                            <div class="sample__price__left">
+                                <span>4.4</span>&nbsp;<span><img src="icons/icon-rating-item-star.svg" alt=""></span>
+                            </div>
+                            <div class="sample__price__right">
+                                <span>$99</span>
+                            </div>
+                        </div>
+                        <div class="itemList__sample__details">
+                            <h5>Apple Magic Mouse </h5>
+                            <p>Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="itemList__sample__buy">
+                            <div class="sample__buy__left">
+                                <span><img src="icons\icon-heart-black.svg" alt=""></span>&nbsp;<span>WISHLIST</span>
+                            </div>
+                            <div class="sample__buy__right">
+                                <span><img src="icons/icon-shopping-bag.svg" alt=""></span>&nbsp;<span>ADD TO CART</span>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="footer__item">
+                <img src="icons/icon-footer-pagination.svg" alt="" class="footer__item__center">
+            </div>
+            <div class="footer__item footer__item--padding">
+                <span>Powered By </span><img src="images\Algolia-logo.svg.png" alt="" class="footer__item__right">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
