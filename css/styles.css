@@ -357,10 +357,15 @@ body{
 }
 .itemList__sample__image{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     justify-content: center;
     padding: 25px 30px 25px 30px;
+}
+.sample__image{
+    transform: translateX(30px);
+    max-width: 155px;
+    max-height: 250px;
+    margin: auto;
 }
 .itemList__sample h5{
     font-size: 14px;
