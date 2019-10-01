@@ -4,23 +4,25 @@
     font-weight: normal;
 }
 body{
+    width: 100%;
     margin: 0;
     padding: 0;
     display: flex;
     background-color: #F9F9F9;
 }
 .vertical-nav{
-    width: 180px;
-    display: block;
-    padding: 8px;
+    width: 300px;
+    /* display: block; */
+    padding: 4px;
     background-color: #ffffff;
-    font-size: 12px;
-    line-height: 40px;
+    font-size: 10px;
+    line-height: 28px;
     box-shadow: -1px 1px 8px rgba(126, 114, 242, 0.578726);
 }
 .vuesax__logo{
-    width: 38px;
-    height: 27px;
+    width: 28px;
+    height: 20px;
+    padding-right: 0.3em;
 }
 .vertical-nav__title-head{
     display: flex;
@@ -28,16 +30,23 @@ body{
 }
 .vertical-nav__title-head h1{
     font-weight: 600;
-    font-size: 22px;
+    font-size: 15px;
     line-height: 27px;
     color: #7E72F2;
+}
+.side-nav__drop{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.vertical-nav__title span{
+    font-size: 10px;
 }
 .vertical-nav__title__left{
     padding-left: 3em;
 }
 .vertical-nav__title select{
     width: 100%;
-    height: 2.5em;
+    height: 2em;
     border: none;
     background-color: #ECECEC;
     border-radius: 4px;
@@ -49,7 +58,7 @@ body{
 .btn{
     width: 100%;
     text-align: left;
-    height: 2.5em;
+    height: 2em;
     border: none;
     border-radius: 4px;
     background: none;
@@ -87,10 +96,10 @@ body{
 .vertical-nav__list__item__arrow{
     position: absolute;
     left: 90%;
-    top: 10px;
+    top: px;
 }
 .vertical-nav__list__item img{
-    height: 15px;
+    height: 13px;
     width: auto;
 }
 .vertical-nav__list__item{
@@ -99,8 +108,8 @@ body{
 .navBar{
     position: relative;
     display: flex;
-    width: 80vw;
-    height: 2.5em;
+    width: 85vw;
+    height: 2em;
     margin: 10px;
     margin-left: 25px;
     background-color: #ffffff;
@@ -120,19 +129,21 @@ body{
 }
 .navBar__item__menu{
     padding-left: 1em;
-
+    width: 15px;
 }
 .navBar__item--right{
     position: absolute;
     right: 0%;
 }
 .navBar__item__menuGroup{
+    color: #2C2C2C;
     display: flex;
     align-items: center;
 }
 .navBar__item__menuItem{
     padding-top: 0.5em;
     padding-left: 1em;
+    width: 15px;
 }
 .navBar__item__menuItem--first{
     padding-top: 0;
@@ -141,24 +152,32 @@ body{
     line-height: 0.2em;
 }
 .navBar__title__font-size{
-    font-size: 14px;
+    padding-right: 1em;
+    font-size: 10px;
 }
+
 .navBar__item__avatar__subtitle{
     font-size: 11px;
 }
 .navBar__item__avatar__logo{
     padding-left: 0.5em;
+    padding-right: 0.5em;
     align-items: center;
 }
+.navBar__item__avatar__logo img{
+    height: 30px;
+}
 .navBar__item__avatarId p{
+    padding-right: 0;
     padding-left: 2em;
     text-align: right;
 }
 .pageNav{
     position: relative;
-    margin: 10px;
+    margin: 15px;
+    margin-bottom: 0;
     display: flex;
-    width: 82vw;
+    width: 86vw;
     align-items: center;
 }
 .pageNav__left{
@@ -166,23 +185,25 @@ body{
     align-items: center;
 }
 .pageNav__left__title{
-    font-size: 24px;
+    font-size: 16px;
 }
 .pageNav__left__subtitle{
-    font-size: 14px;
+    font-size: 10px;
 }
 .pageNav__left__subtitle--blue{
-    font-size: 14px;
+    font-size: 10px;
     color: #7E72F2;
 }
 .pageNav__left__item{
     padding-right: 0.5em;
     padding-left: 0.5em;
 }
+.pageNav__right__settings{
+    width: 30px;
+}
 .pageNav__right{
     position: absolute;
     right: 0%;
-    /* padding-left: 39em; */
 }
 .contentBar{
     display: flex;
@@ -200,13 +221,21 @@ body{
     width: 250px;
     font-size: 16px;
 }
+.filterBar__nav{
+    margin-top: 0;
+    font-size: 12px;
+}
 .filterBar__body{
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: -1px 1px 8px rgba(126, 114, 242, 0.578726);
     padding: 15px;
 }
+.filterBar__title__item{
+    font-size: 10px;
+}
 .filterBar__title__item p{
+    /* font-size: 10px */
     position: absolute;
     top: -0.55em;
     right: 0%;
@@ -221,12 +250,15 @@ body{
     width: 100%
 }
 .filterBar__title{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 13px;
     line-height: 22px;
     color: #2C2C2C;
+}
+.filterBar__title__item img{
+    width: 15px;
 }
 .filterBar__title__item .checked{
     color: yellow;
@@ -265,7 +297,7 @@ body{
     background-color: #6F64F8;
 }
 .itemNav__title{
-    margin-top: 15px;
+    margin-top: 0;
     margin-left: 10px;
     width: 61vw;
     display: flex;
@@ -275,6 +307,10 @@ body{
 .itemNav__title__right{
     display: flex;
     align-items: center;
+}
+.itemNav__title__left-n{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .itemNav__title__right__icons{
     width: auto;
@@ -389,7 +425,7 @@ body{
     width: 75px;
 }
 .footer__item--padding{
-    padding-left: 400px;
+    padding-left: 300px;
 }
 
 
